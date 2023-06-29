@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    /*int age; use %d*/
+    /*double gpa; = use %lf but print out with %f*/
+    /*
+        & = ampersand is needed in all under this line
+      char = %c(not a string)
+      int  = %d
+      float = %lf/%f
+      char = %s(STRING) uses brackets square brackets specifically ex. []
+
+
+    */
+    char stringfrg[44];
+    char nameLast[20];
+    printf("Enter your name: ",stringfrg);
+    fgets(stringfrg,44, stdin);
+    printf("Hello there! %s this is a test line",stringfrg);
+/*Important Note: 
+    When using fgets, after the %s word creates a new line automatically */
+    
+    return 0;
+
+
+
+}
