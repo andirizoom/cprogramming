@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+//    printf("Top");
+    sayHi("Andi", 25);
+    sayHi("Ralph",53);
+    sayHi("Bautista",93);
+    sayHi("Tim",47);
+//    printf("bottom");
+ return 0;
+//what is happening here?
+/*what exactly is happeniing and the difference these comments*/
+
+}
+
+void sayHi(char name[],int age){
+    printf("Hellow %s, You are nearly %d\n",name,age);
+
+}
