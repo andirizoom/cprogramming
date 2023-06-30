@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    /*int luckyNumber[]={4,8,15,16,23,42}; */
+    char luckyNumber[] =("sufisticated");
+    printf("%c",luckyNumber[4]);
+    return 0;
+
+}
